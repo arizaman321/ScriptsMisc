@@ -12,7 +12,7 @@ def checkTemp():
 while True:
     temp = checkTemp()
     print (temp)
-    thresh = 42.5
+    thresh = 45
     
     if temp > thresh:
         GPIO.output(25,GPIO.HIGH)
